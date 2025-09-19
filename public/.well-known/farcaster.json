@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "CreatorBets",
+    "subtitle": "Built with Zara",
+    "description": "CreatorBets is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://d145d79eb8d844d6b6da409d5415c824-1zfg.vercel.app",
+    "splashImageUrl": "https://d145d79eb8d844d6b6da409d5415c824-1zfg.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://d145d79eb8d844d6b6da409d5415c824-1zfg.vercel.app/image.png",
+    "tagline": "CreatorBets",
+    "screenshotUrls": [
+      "https://d145d79eb8d844d6b6da409d5415c824-1zfg.vercel.app/screenshot.png",
+      "https://d145d79eb8d844d6b6da409d5415c824-1zfg.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://d145d79eb8d844d6b6da409d5415c824-1zfg.vercel.app/api/webhook"
+  }
+}
