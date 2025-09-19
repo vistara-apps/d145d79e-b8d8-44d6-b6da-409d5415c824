@@ -1,14 +1,25 @@
 {
   "name": "CreatorBets",
-  "description": "CreatorBets is a Base Mini App built with Zara.",
-  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
-  "external_url": "https://d145d79e-b8d8-44d6-b6da-409d5415c824.vercel.app",
-  "properties": {
-    "app": {
-      "name": "CreatorBets",
-      "description": "CreatorBets is a Base Mini App built with Zara.",
-      "url": "https://d145d79e-b8d8-44d6-b6da-409d5415c824.vercel.app",
-      "icon": "https://0co.to/images/zara-2.png"
-    }
+  "description": "Predict creator outcomes, earn crypto rewards",
+  "iconUrl": "https://example.com/icon.png",
+  "frame": {
+    "version": "1",
+    "name": "CreatorBets",
+    "homeUrl": "https://your-domain.com",
+    "iconUrl": "https://example.com/icon.png",
+    "splashImageUrl": "https://example.com/splash.png",
+    "splashBackgroundColor": "#1e293b",
+    "webhookUrl": "https://your-domain.com/api/webhook",
+    "subtitle": "Predict & Earn",
+    "description": "Make predictions on creator activities and earn crypto rewards on Base",
+    "primaryCategory": "social",
+    "tags": ["prediction", "gaming", "social", "crypto"],
+    "heroImageUrl": "https://example.com/hero.png",
+    "tagline": "Predict creator outcomes",
+    "ogTitle": "CreatorBets - Predict & Earn",
+    "ogDescription": "Make predictions on creator activities and earn crypto rewards",
+    "ogImageUrl": "https://example.com/og.png",
+    "noindex": false
   }
 }
+
