@@ -11,6 +11,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
     --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
     --primary-50: 210 40% 98%;
     --primary-100: 210 40% 96%;
     --primary-200: 214.3 31.8% 91.4%;
@@ -23,6 +24,7 @@
     --primary-900: 229.3 84% 4.9%;
     --primary-950: 229.3 84% 4.9%;
     --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
     --secondary-50: 210 40% 98%;
     --secondary-100: 210 40% 96%;
     --secondary-200: 214.3 31.8% 91.4%;
@@ -35,6 +37,7 @@
     --secondary-900: 229.3 84% 4.9%;
     --secondary-950: 229.3 84% 4.9%;
     --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
     --accent-50: 210 40% 98%;
     --accent-100: 210 40% 96%;
     --accent-200: 214.3 31.8% 91.4%;
@@ -131,20 +134,20 @@
 @layer components {
   /* Common button styles with valid Tailwind classes */
   .btn-primary {
-    @apply bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md transition-all duration-200;
+    @apply bg-primary hover:opacity-90 text-primary-foreground px-6 py-3 rounded-md transition-all duration-200;
   }
   
   .btn-secondary {
-    @apply bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 rounded-md transition-all duration-200;
+    @apply bg-secondary hover:opacity-90 text-secondary-foreground px-6 py-3 rounded-md transition-all duration-200;
   }
   
   .btn-accent {
-    @apply bg-accent hover:bg-accent/90 text-accent-foreground px-6 py-3 rounded-md transition-all duration-200;
+    @apply bg-accent hover:opacity-90 text-accent-foreground px-6 py-3 rounded-md transition-all duration-200;
   }
   
   /* Card styles */
   .card {
-    @apply bg-card text-card-foreground rounded-lg border shadow-sm;
+    @apply bg-card text-card-foreground rounded-lg border shadow-sm p-4;
   }
   
   /* Input styles */
